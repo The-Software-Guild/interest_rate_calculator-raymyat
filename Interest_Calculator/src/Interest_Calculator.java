@@ -31,6 +31,7 @@ public class Interest_Calculator {
 	public static void interestCalculate(int compoundPeriod, double investAmount,double annualInterestRate) {
 		double interestRate = 0.0;
 		int numOfCompound = 0;
+		
 		if(compoundPeriod == 1) { //daily > compounded 365 times per year
 			interestRate = annualInterestRate /365;
 			numOfCompound = 365;
